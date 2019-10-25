@@ -1,0 +1,19 @@
+ *****************************************
+/        Ejercicio Encapsulamientov     /
+****************************************
+
+1- Crear una Clase Persona con los Siguientes Atributos 
+	a-dni: int
+	b-nombre: String
+	c-apellido: String
+	d-domicilio: String
+
+	Nota: 
+		-SOLO SE PUEDE ACCEDER A LOS ATRIBUTOS DESDE OTRA CLASE POR MEDIO DE GETTER Y SETTER
+		-EL GETTER Y SETTER DEBE ESTAR ESCRITO A MANO
+
+2- Crear dos constructores para persona, el primero recibe como parametro el dni, el segundo recibe todos
+   los atributos como parametro
+
+3- Crear un Método Publico Saludar que devuelva un "Hola me llamo" + nombre de la persona 
+		
