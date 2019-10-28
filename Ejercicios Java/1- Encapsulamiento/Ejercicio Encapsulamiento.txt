@@ -1,6 +1,6 @@
- *****************************************
-/        Ejercicio Encapsulamientov     /
-****************************************
+*****************************************
+/       Ejercicio Encapsulamiento       /
+*****************************************
 
 1- Crear una Clase Persona con los Siguientes Atributos 
 	a-dni: int
