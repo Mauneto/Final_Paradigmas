@@ -30,17 +30,17 @@ public class Persona {
     public String getDomicilio(){
         return domicilio;
     }
-    
-    public void Persona(int dni){
+    /*EL CONSTRUCTOR NO LLEVA VOID*/
+    public Persona(int dni){
         this.dni = dni;
     }
-    public void Persona(String nombre, String apellido, String domicilio){
+    public Persona(String nombre, String apellido, String domicilio){
         this.nombre = nombre;
         this.apellido = apellido;
         this.domicilio = domicilio;
     }
-    
-    public void Saludar(String nombre){
+    /*No hay necesidad de pasar el nombre si ya lo tiene guardado el objeto */
+    public void Saludar(){
         System.out.println("Hola me llamo " + getNombre());
     }
 }
